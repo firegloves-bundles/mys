@@ -1,0 +1,13 @@
+code: mys
+description: This is the mys bundle
+
+components:
+  plugins:
+    - plugins/mys-plugin.yaml
+
+  widgets:
+    - ui/widgets/cat/tableWidget/cat-table-widget-descriptor.yaml
+    - ui/widgets/cat/detailsWidget/cat-details-widget-descriptor.yaml
+    - ui/widgets/cat/formWidget/cat-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
